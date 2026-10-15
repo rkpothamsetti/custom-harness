@@ -1,0 +1,35 @@
+{
+  "name": "agent-harness-tui",
+  "version": "1.0.0",
+  "description": "A clean, modern, and extensible TUI boilerplate in TypeScript for agent harnesses.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "start": "tsx src/index.ts"
+  },
+  "keywords": [
+    "tui",
+    "cli",
+    "typescript",
+    "ink",
+    "agent-harness"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "ink": "^5.1.0",
+    "ink-text-input": "^6.0.0",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "@types/react": "^18.3.1",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}
